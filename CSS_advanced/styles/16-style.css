@@ -25,6 +25,7 @@
     --section-title-color: var(--color-black)
 
 }
+
 *, *:before, *:after{
     box-sizing: border-box;
 }
@@ -34,7 +35,7 @@ html{
     font-size: 62.5%;
 }
 
-body, a {
+body, a:{
     color: var(--text-color);
 }
 
@@ -92,8 +93,9 @@ h1, h2, h3, h4, h5, h6{
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
+
 .container{
-    width: 960;
-    margin-top: auto;
+    width: 960px;
+    margin-right: auto;
     margin-left: auto;
 }
